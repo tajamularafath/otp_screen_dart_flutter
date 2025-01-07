@@ -1,10 +1,11 @@
 import 'package:demo_designing/certificates_download.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'constants.dart';
 
 class OtpScreen extends StatelessWidget {
+  const OtpScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
